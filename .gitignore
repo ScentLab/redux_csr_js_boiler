@@ -24,3 +24,10 @@ yarn-error.log*
 
 # config
 .env
+
+# deploy
+
+docker-compose-production.yml
+docker-compose.yml
+scripts/deploy-dev.sh
+scripts/deploy-prod.sh

@@ -1,17 +1,23 @@
-# react_ssr_js_boiler
-react_ssr_js_boiler
+# react_redux_csr_js_boiler
 
-using CSR
+react boilerplate using the js and the redux for the CSR
 
-## Technical 
-CRA + Redux + ReduxThunk
+## Technical detail
 
-## Design
-Flux pattern
-Ducks pattern, 
+Create-React-App v3 + Redux + ReduxThunk
+
+## Redux Design
+
+Ducks pattern(feature driven)
 
 ## Package managements
+
 Only use Yarn
 
-## Linter
-ESLint(Airbnb)
+## Code Conducts
+
+ESLint(Airbnb) + Prettier
+
+## Infra
+
+AWS + Docker + NginX + Git(GitHub)

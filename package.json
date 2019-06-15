@@ -1,11 +1,25 @@
 {
-  "name": "react_ssr_js_boiler",
+  "name": "react_csr_js_boiler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "history": "^4.9.0",
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-redux": "7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.2.4",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +28,16 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "rules": {
+      "no-console": 0
+    },
+    "env": {
+      "browser": true
+    }
   },
   "browserslist": {
     "production": [
@@ -29,6 +52,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
     "typescript": "^3.5.2"
   }
 }

@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  color: #222222;
+  background-color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+html,
+body {
+  min-width: 1280px;
+  height: 100%;
+}
+
+body,
+button,
+input,
+select,
+table,
+textarea {
+  font-size: 15px;
+  font-family: 'NanumSquareOTF', 'NanumSquare', 'Apple SD Gothic Neo',
+    'AppleGothic', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a[href='#none'] {
+  cursor: default;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+  letter-spacing: -0.3px;
+  border-collapse: collapse;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  caret-color: #22b1f4;
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='password'] {
+  font-family: sans-serif;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: 'NanumSquareOTF', 'NanumSquare', 'Apple SD Gothic Neo',
+    'AppleGothic', sans-serif;
+  color: #888888;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-family: 'NanumSquareOTF', 'NanumSquare', 'Apple SD Gothic Neo',
+    'AppleGothic', sans-serif;
+  color: #888888;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-family: 'NanumSquareOTF', 'NanumSquare', 'Apple SD Gothic Neo',
+    'AppleGothic', sans-serif;
+  color: #888888;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  font-family: 'NanumSquareOTF', 'NanumSquare', 'Apple SD Gothic Neo',
+    'AppleGothic', sans-serif;
+  color: #888888;
+}
+
+textarea {
+  line-height: 1.45;
+  caret-color: #f47822;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  resize: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  box-shadow: 0 0 0 1000px #fff inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -ms-touch-select: none;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+caption {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+span {
+  display: inline-block;
+}
+
+b {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 800;
+}

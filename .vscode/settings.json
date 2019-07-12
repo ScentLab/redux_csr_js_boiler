@@ -1,0 +1,6 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "prettier.printWidth": 120,
+  "prettier.parser": "flow"
+}

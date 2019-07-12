@@ -1,0 +1,17 @@
+version: '3.6'
+services:
+  front:
+    image: {your-docker-image-name}:latest
+    restart: always
+    environment:
+      - VIRTUAL_HOST={your-host-name(url)}
+      - VIRTUAL_PORT=3000
+      - LETSENCRYPT_HOST={your-host-name(url)}
+      - LETSENCRYPT_EMAIL=gmj1197@gmail.com
+    networks:
+      - nginx-proxy
+
+networks:
+  nginx-proxy:
+    external: true
+    name: nginx-proxy
